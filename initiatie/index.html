@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Tom Vanhoutte">
+    <meta name="description" content="Initiatie html">
+    <meta name="keywords" content="HTML5, CSS3, initiatie, html">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>HTML5 Initiatie</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Er kan maar één h1 tag op een pagina komen! -->
+<h1>HTML5 Initiatie</h1>
+<!-- h2 tot h6 tags kunnen oneindig voorkomen! -->
+<h2>Tags</h2>
+    <p>Hier zullen we het hebben over alle tags in html</p>
+    <h3>p-tag</h3>
+        <p>de p tag is een paragraaf tag. Dit is dus ook een
+            block level element</p>
+    <h3>ol en ul (ordered en unordered lists)</h3>
+        <h4>ol-tag</h4>
+            <ol>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>BOOTSTRAP FRAMEWORK</li>
+            </ol>
+        <h4>ul-tag</h4>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>BOOTSTRAP FRAMEWORK</li>
+            </ul>
+        <h3>blockquote</h3>
+            <blockquote cite="https://nl.wikipedia.org/wiki/Stephen_Hawking">
+                Hawking werd geboren op 8 januari 1942.
+                Zijn ouders, Frank en Isobel Hawking,
+                woonden in Londen, maar wegens de bombardementen op
+                Londen tijdens de Tweede Wereldoorlog waren ze naar het
+                veiligere Oxford verhuisd
+            </blockquote>
+        <h3>pre tag</h3>
+            <blockquote cite="https://nl.wikipedia.org/wiki/Stephen_Hawking">
+                <pre>
+                    Hawking werd geboren op 8 januari 1942.
+                    Zijn ouders, Frank en Isobel Hawking,
+                    woonden in Londen, maar wegens de bombardementen op
+                    Londen tijdens de Tweede Wereldoorlog waren ze naar het
+                    veiligere           Oxford verhuisd
+                </pre>
+            </blockquote>
+        <h3>abbr tag (abbrevation)</h3>
+            <abbr title="Hypertext Markup Language">HTML</abbr>
+        <h3>b en strong tag</h3>
+            <b>vetjes</b>
+            <strong>vetjes</strong>
+        <h3>i of em, var</h3>
+            <i>schuin</i>
+            <em>schuin</em>
+            <var>Schuin, definieert een variabele, bijv. x=1</var>
+        <h3>mark tag</h3>
+            <mark>fluo</mark>
+        <h3>code, kbd, samp tag</h3>
+            <code>computer code</code><br>
+            <kbd>Keyboard: CTRL+B</kbd><br>
+            <samp>computer output or resultaat</samp>
+        <h3>a tag met href attribuut</h3>
+            <a href="http://www.google.be" target="_blank">Google</a>
+        <h3>bdo tag</h3>
+            <bdo dir="rtl">moordnilap nee si lepel</bdo>
+        <h3>sub, sup, small, q tag</h3>
+            <sub>Sub tag</sub>
+            <sup>sup tag</sup>
+            <small>small tag</small>
+            <q>q tag</q>
+        <h3>address tag</h3>
+            <address>
+                Adres: <br>
+                www.mijnsite.be <br>
+                straat,huisnummer, postcode, gemeente
+            </address>
+        <h4>dfn tag</h4>
+            <p>
+                <dfn>HTML </dfn>
+                is de taal gebruikt binnen een webpagina.
+            </p>
+    <h2>Container tags</h2>
+        <h3>div tag</h3>
+            <div id="voetbal" class="">
+                <div id="clubbrugge">
+                    <h4>Club Brugge</h4>
+                        <p>Club is kampioen</p>
+                </div>
+
+            </div>
+        <h3>section en article tags</h3>
+            <section id="Voetbalclubs">
+                <h4>Voetbalclubs</h4>
+                <article id="club" >
+                    <h5>Club Brugge</h5>
+                    <p>Club is kampioen</p>
+                </article>
+                <article id="Anderlecht" >
+                    <h5>Anderlecht</h5>
+                    <p>Tweede klasse komt in zicht.</p>
+                </article>
+            </section>
+
+            <article id="Standard">
+                <h4>Standard</h4>
+                <section id="Jeugd">
+                    <h5>Jeugd</h5>
+                    <section id="minimiemen">
+                        <h6>Miniemen</h6>
+                        <article id="ditweekend">
+                            <h6>dit weekend</h6>
+                            <p>de minimiemen hebben dit weekend gewonnen!</p>
+                        </article>
+                    </section>
+                    <section id="scholieren">
+                        <h6>scholieren</h6>
+                    </section>
+                </section>
+                <section id="Beloften">
+                    <h5>Beloften</h5>
+                    <article>
+                        <h6>verloren</h6>
+                        <p>verloren dit weekend</p>
+                    </article>
+                </section>
+                <section id="Eersteploeg">
+                    <h5>eerste ploeg</h5>
+                </section>
+            </article>
+        <h3>container nav tag</h3>
+            <nav>
+                <ul>
+                    <li>Menu 1</li>
+                    <li>Menu 2</li>
+                </ul>
+            </nav>
+        <h3>main tag</h3>
+            <main></main>
+            <p>De main tag staat altijd binnen de body en bevat alle andere tags</p>
+        <h3>Header tag</h3>
+            <header></header>
+        <h3>footer tag</h3>
+            <footer></footer>
+        <h4>aside tag</h4>
+            <p>kan een bijkomend menu of bijkomende relevante uitleg zijn die
+            betrekking heeft met het onderwerp van de huidige pagina.</p>
+<h2>Afbeeldingen</h2>
+    png, jpg, jpeg, jpeg2000, webp, svg, gif</p>
+    <img src="images/download.png" alt="cercle brugge" height="100" width="100">
+    <img src="images/download.png" alt="cercle brugge" height="50%" width="50%">
+</body>
+</html>

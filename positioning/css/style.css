@@ -1,0 +1,66 @@
+#box{
+    height:100px;
+    width:100px;
+    background:blue;
+    float:right;
+}
+#parent{
+    height:500px;
+    width:500px;
+    background:yellow;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+#child{
+    height:100px;
+    width:100px;
+    background:orangered;
+    position:absolute;
+    bottom:50px;
+    right:50px;
+}
+#parent2{
+    height:150px;
+    width:500px;
+    background:black;
+    position:absolute;
+    top:150px;
+    left:150px;
+}
+#child1{
+    height:100px;
+    width:100px;
+    background:orangered;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:5;
+}
+#child2{
+    height:100px;
+    width:100px;
+    background:yellow;
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    z-index:3;
+}
+#child3{
+    height:100px;
+    width:100px;
+    background:orangered;
+    position:absolute;
+    top:0px;
+    right:0px;
+    z-index:5;
+}
+#child4{
+    height:100px;
+    width:100px;
+    background:yellow;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    z-index:3;
+}

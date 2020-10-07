@@ -1,0 +1,22 @@
+#box{
+    height:100px;
+    width:100px;
+    background:blue;
+    float:right;
+}
+#parent{
+    height:500px;
+    width:500px;
+    background:yellow;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+#child{
+    height:100px;
+    width:100px;
+    background:orangered;
+    position:absolute;
+    bottom:50px;
+    right:50px;
+}
