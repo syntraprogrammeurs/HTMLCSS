@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07930b86-3200-4081-9162-ee3984088994" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/flexbox/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flexbox/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flexbox/oefening.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/prechu/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prechu/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prechu/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +33,31 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iaLugTLpj95FId0C96na08MbTi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -55,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602140979541</updated>
       <workItem from="1602140984009" duration="273000" />
-      <workItem from="1602141280627" duration="4768000" />
+      <workItem from="1602141280627" duration="20465000" />
     </task>
     <servers />
   </component>
