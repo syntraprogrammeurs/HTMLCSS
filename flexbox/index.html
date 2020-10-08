@@ -6,16 +6,104 @@
     <meta name="description" content="positioning html">
     <meta name="keywords" content="HTML5, CSS3, positioning, html">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
-    <title>Positioning</title>
+    <title>Flexbox</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1>Positioning</h1>
-<h2>Floats</h2>
-    <div id="box"></div>
-<h2>Relative and absolute positioning</h2>
-    <div id="parent">
-        <div id="child"></div>
+<h1>Flexbox</h1>
+<h2>Flexbox direction en display</h2>
+<h3>Flexbox row</h3>
+    <p>row is de standaard richting van flexbox (default)</p>
+<div id="flexboxrow" class="flexbox-container">
+    <div class="bloka">blok a</div>
+    <div class="blokb">blok b</div>
+    <div class="blokc">blok c</div>
+</div>
+<br>
+<div id="flexboxrow-reverse" class="flexbox-container">
+    <div class="bloka">blok a</div>
+    <div class="blokb">blok b</div>
+    <div class="blokc">blok c</div>
+</div>
+<br>
+<h3>Flexbox column</h3>
+<p>Column zet alle childs tov zijn parent in kolomvorm</p>
+<div id="flexboxcolumn" class="flexbox-container">
+    <div class="bloka">blok a</div>
+    <div class="blokb">blok b</div>
+    <div class="blokc">blok c</div>
+</div>
+<br>
+<div id="flexboxcolumnreverse" class="flexbox-container">
+    <div class="bloka">blok a</div>
+    <div class="blokb">blok b</div>
+    <div class="blokc">blok c</div>
+</div>
+<h2>JUSTIFY CONTENT</h2>
+    <p>met justify content zorg je voor HORIZONTALE positionering van kinderen t.o.v. parent</p>
+    <h3>justify content center</h3>
+        <div id="flexboxjustify" class="flexbox-container">
+            <div class="bloka">blok a</div>
+            <div class="blokb">blok b</div>
+            <div class="blokc">blok c</div>
+        </div>
+    <br>
+    <h3>justify content start</h3>
+    <div id="flexboxjustifystart" class="flexbox-container">
+        <div class="bloka">blok a</div>
+        <div class="blokb">blok b</div>
+        <div class="blokc">blok c</div>
     </div>
+    <br>
+    <h3>justify content end</h3>
+    <div id="flexboxjustifyend" class="flexbox-container">
+        <div class="bloka">blok a</div>
+        <div class="blokb">blok b</div>
+        <div class="blokc">blok c</div>
+    </div>
+    <br>
+    <h3>justify content space-around</h3>
+    <div id="flexboxjustifaround" class="flexbox-container">
+        <div class="bloka">blok a</div>
+        <div class="blokb">blok b</div>
+        <div class="blokc">blok c</div>
+    </div>
+    <br>
+    <h3>justify content space-between</h3>
+    <div id="flexboxjustifybetween" class="flexbox-container">
+        <div class="bloka">blok a</div>
+        <div class="blokb">blok b</div>
+        <div class="blokc">blok c</div>
+    </div>
+    <h3>ALIGN ITEMS CENTER</h3>
+    <p>ALIGN ITEMS zorgt voor VERTICALE positionering van childeren t.o.v. de parent</p>
+        <div id="alignitems" class="flexbox-container">
+            <div class="bloka">blok a</div>
+            <div class="blokb">blok b</div>
+            <div class="blokc">blok c</div>
+        </div>
+        <br>
+    <h3>ALIGN ITEMS START</h3>
+        <div id="alignitemsstart" class="flexbox-container">
+            <div class="bloka">blok a</div>
+            <div class="blokb">blok b</div>
+            <div class="blokc">blok c</div>
+        </div>
+        <br>
+    <h3>ALIGN ITEMS END</h3>
+        <div id="alignitemsend" class="flexbox-container">
+            <div class="bloka">blok a</div>
+            <div class="blokb">blok b</div>
+            <div class="blokc">blok c</div>
+        </div>
+        <br>
+    <h3>ALIGN ITEMS STRETCH</h3>
+    <div id="alignitemsstretch" class="flexbox-container">
+        <div class="bloka">blok a</div>
+        <div class="blokb">blok b</div>
+        <div class="blokc">blok c</div>
+    </div>
+<br>
+
 </body>
 </html>

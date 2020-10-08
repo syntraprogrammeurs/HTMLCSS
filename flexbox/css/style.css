@@ -1,22 +1,89 @@
-#box{
-    height:100px;
-    width:100px;
+.flexbox-container{
+    display:flex;
+}
+.bloka, .blokb,.blokc{
+    height:200px;
+    width:200px;
+}
+.bloka{
+    background:red;
+}
+.blokb{
     background:blue;
-    float:right;
 }
-#parent{
-    height:500px;
-    width:500px;
+.blokc{
+    background:purple;
+}
+
+#flexboxrow-reverse{
+    flex-direction: row-reverse;
+}
+#flexboxcolumn{
+    flex-direction:column;
+}
+#flexboxcolumnreverse{
+    flex-direction: column-reverse;
+}
+#flexboxjustify{
+    width:100%;
     background:yellow;
-    position:absolute;
-    top:0px;
-    right:0px;
+    height:300px;
+    border:3px solid black;
+    justify-content:center;
 }
-#child{
-    height:100px;
-    width:100px;
-    background:orangered;
-    position:absolute;
-    bottom:50px;
-    right:50px;
+#flexboxjustifystart{
+    width:100%;
+    background:yellow;
+    height:300px;
+    border:3px solid black;
+    justify-content:flex-start;
+}
+#flexboxjustifyend{
+    width:100%;
+    background:yellow;
+    height:300px;
+    border:3px solid black;
+    justify-content:flex-end;
+}
+#flexboxjustifaround{
+    width:100%;
+    background:yellow;
+    height:300px;
+    border:3px solid black;
+    justify-content:space-around;
+}
+#flexboxjustifybetween{
+    width:100%;
+    background:yellow;
+    height:300px;
+    border:3px solid black;
+    justify-content:space-between;
+}
+#alignitems{
+    width:100%;
+    background:yellow;
+    height:300px;
+    border:3px solid black;
+    align-items: center;
+}
+#alignitemsstart{
+    width:100%;
+    background:yellow;
+    height:300px;
+    border:3px solid black;
+    align-items: flex-start;
+}
+#alignitemsend{
+    width:100%;
+    background:yellow;
+    height:300px;
+    border:3px solid black;
+    align-items: flex-end;
+}
+#alignitemsstretch{
+    width:100%;
+    background:yellow;
+    height:300px;
+    border:3px solid black;
+    align-items: stretch;
 }
