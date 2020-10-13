@@ -94,16 +94,18 @@ header,#mainfoto{
 	font-size:2rem;
 	letter-spacing: 2px;
 }
-header ul{
-
-}
 header ul li{
 	list-style: none;
+	border-bottom:3px solid transparent;
+}
+header ul li:hover{
+	border-bottom:3px solid #626262;
 }
 header ul li a{
 	color:#626262;
 	text-decoration:none;
 }
+
 /**MAIN**/
 #photodiary{
 	width:900px;

@@ -1,0 +1,51 @@
+body{
+    background:purple;
+}
+/*Large devices (desktops, less than 1200px)*/
+@media screen and (max-width: 1200px) {
+    body{
+        background:brown;
+
+    }
+    h1{
+        font-size:50px;
+    }
+}
+/*Medium devices (tablets, less than 992px)*/
+@media screen and (max-width: 992px) {
+    body{
+        background:orange;
+    }
+    h1{
+        font-size:40px;
+    }
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media screen and (max-width: 768px) {
+    body{
+        background:blue;
+    }
+    h1{
+        font-size:30px;
+    }
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media screen and (max-width: 576px) {
+    body{
+        background:yellow;
+    }
+    h1{
+        font-size:20px;
+    }
+}
+
+
+
+
+
+
+
+/* Extra large devices (large desktops)
+/*No media query since the extra-large breakpoint has no upper bound on its width
+
+ */
