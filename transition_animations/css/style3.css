@@ -1,0 +1,43 @@
+body{
+    background-color:thistle;
+}
+.container{
+    margin: 10px;
+    padding: 30px;
+    background-color: #fff;
+}
+.box{
+    padding:10px;
+    background-color: mediumpurple;
+    color: #fff;
+    width: 80px;
+    margin:20px;
+    position:relative;
+    left:0;
+    /**transition property**/
+    transition-property: left;
+    transition-duration: 1000ms;
+
+}
+.box p{
+    text-align:center;
+    line-height: 50px;
+}
+.container:hover .box{
+    left:80%;
+}
+#ease{
+    transition-timing-function: ease;
+}
+#linear{
+    transition-timing-function: linear;
+}
+#ease-in{
+    transition-timing-function: ease-in;
+}
+#ease-out{
+    transition-timing-function: ease-out;
+}
+#ease-in-out{
+    transition-timing-function: ease-in-out;
+}

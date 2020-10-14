@@ -20,32 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07930b86-3200-4081-9162-ee3984088994" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fontawesome/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/js/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mediaqueries/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mediaqueries/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parallax/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parallax/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transition_animations/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transition_animations/css/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transition_animations/css/style2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transition_animations/css/style3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transition_animations/css/style4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transition_animations/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transition_animations/transform01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transition_animations/transition01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transition_animations/transition02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transition_animations/transition03.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minimo/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/minimo/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minimo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/minimo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prechu/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/prechu/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prechu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/prechu/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,18 +65,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fontawesome/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/transition_animations/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\htmlcss\transition_animations\css" />
+      <recent name="C:\wamp64\www\htmlcss\transition_animations" />
       <recent name="C:\wamp64\www\htmlcss\fontawesome\js" />
       <recent name="C:\wamp64\www\htmlcss\fontawesome\css" />
       <recent name="C:\wamp64\www\htmlcss\fontawesome" />
-      <recent name="C:\wamp64\www\htmlcss" />
-      <recent name="C:\wamp64\www\htmlcss\minimo\js" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -103,7 +90,8 @@
       <workItem from="1602140984009" duration="273000" />
       <workItem from="1602141280627" duration="21136000" />
       <workItem from="1602486443068" duration="14223000" />
-      <workItem from="1602571884943" duration="14647000" />
+      <workItem from="1602571884943" duration="15247000" />
+      <workItem from="1602658746448" duration="3577000" />
     </task>
     <servers />
   </component>

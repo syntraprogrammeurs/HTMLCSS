@@ -1,0 +1,29 @@
+body{
+    background-color:thistle;
+}
+.box, .box2, .box3, .box4{
+    height:300px;
+    width:584px;
+    margin: 50px auto;
+    background-image: url('../images/cartoon.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    border: 5px solid #fff;
+    transition: transform 0.3s;
+
+}
+.box:hover{
+    transform: rotate(20deg);
+}
+.box2:hover{
+    transform: scale(1.5);
+}
+.box3:hover{
+    transform: skewY(10deg);
+}
+.box4:hover{
+    transform: rotateX(360deg);
+}
+.container{
+    perspective: 800px;
+}
